@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introdução</title>
+  </head>
+  <body>
+    <!----------- Outputs ------------->
+
+    <!-- Para imprimir algo, literalmente -->
+    <button onclick="window.print()">Vai imprimir?</button>
+
+    <!-- Prompt simples -->
+    <script>
+      let promptSimples = window.prompt("Por gentileza, informe o seu nome: ");
+
+      if (promptSimples !== null) {
+        window.alert("Olá, " + promptSimples + "!");
+      } else {
+        window.alert("Operação cancelada!");
+      }
+    </script>
+
+    <!-- Pegando através de um id: -->
+    <p id="mepegue"></p>
+
+    <script>
+      function alterarElemento() {
+        document.getElementById("mepegue").innerHTML = "Alterando o elemento";
+      }
+
+      alterarElemento();
+
+      document.write("Imprimindo diretamente");
+
+      window.alert("Exibindo um alerta!");
+    </script>
+  </body>
+</html>
