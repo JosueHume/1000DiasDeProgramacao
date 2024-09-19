@@ -1,10 +1,3 @@
-/* <script>
-    console.log("Abrir a tag ~script~ para inserir um código de javascript diretamente em um HTML.");
-</script> 
-*/
-
-//Para importar um javascript externo, basta usar 
-// <script src="javascript.js"> </script>
 
 //----------- Declaração de Variáveis -----------//
 
@@ -54,18 +47,3 @@ testarVariavelGlobalELocal();
 }
 
 console.log(varDentroDoBloco);
-
-//------------- Operadores -------------//
-
-// operadores básicos: +, -, *, /, %, **, ++, --, +a, -aa, 
-
-// operadores de atribuições: =, +=, -=, *=, /=, %=, **=, <<=, >>=, &=, |=, ^=
-
-// operadores de comparação: ==, ===, !=, !==, >, <, >=, <=
-
-// operadores de lógica: &&, ||, !
-
-//operador ternário: ? :
-
-//operadores relacionais: in, instanceof 
-
